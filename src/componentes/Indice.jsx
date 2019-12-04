@@ -1,9 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Indice = props => (
-  <div>
-    <h1>Indice...</h1>
-  </div>
-);
+
+const Indice = props => {
+  return (
+    <>
+
+      <Link to="/">Inicio</Link>
+    </>
+  );
+};
 
 export default Indice;
